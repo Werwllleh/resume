@@ -3,6 +3,7 @@ import { linksAdress } from '../../../router/links';
 import s from '../Links/Links.module.css';
 import LinkBtn from './Link/LinkBtn';
 
+
 const Links = () => {
 	return (
 		<div className={s.linksBody}>
@@ -10,10 +11,11 @@ const Links = () => {
 				<LinkBtn
 					path={link.path}
 					icon={link.icon}
-					key={link.socname}
+					key={link.path.toString()}
 				/>
 			)}
 		</div>
+		
 	);
 }
 

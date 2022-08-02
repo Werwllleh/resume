@@ -1,12 +1,9 @@
 import React from 'react'
-import Links from '../Components/UI/Links/Links';
+import ProfileInfo from '../Components/UI/ProfileInfo/ProfileInfo';
 
 const Preview = () => {
 	return (
-		<div>
-			Это страница-превью
-			<Links/>
-		</div>
+			<ProfileInfo/>
 	)
 }
 
