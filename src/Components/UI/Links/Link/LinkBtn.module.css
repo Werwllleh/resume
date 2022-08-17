@@ -1,6 +1,6 @@
 .link {
-	width: 50px;
-	height: 50px;
+	width: 65px;
+	height: 65px;
 	border: 3px solid #d2d2d2;
 	border-radius: 10px;
 	background-color: #d2d2d2;
@@ -14,8 +14,4 @@
 
 .link:hover {
 	border: 3px solid #c0c0c0;
-}
-
-.link:not(:last-child) {
-	margin: 0 10px 0 0;
 }
