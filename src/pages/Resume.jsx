@@ -1,8 +1,11 @@
 import React from 'react'
+import PageHeader from '../Components/UI/PageHeader/PageHeader';
 
 const Resume= () => {
 	return (
-		<div>Тут будет резюме</div>
+		<div>
+			<PageHeader/>
+		</div>
 	)
 }
 

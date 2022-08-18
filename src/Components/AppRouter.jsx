@@ -1,10 +1,12 @@
 import React from "react";
 import Error from '../pages/Error';
-import { Routes, Route, Navigate } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import { pageRoutes } from '../router/routes';
+import Preview from "../pages/Preview";
 
 
 const AppRouter = () => {
+
 	return (
 		<Routes>
 			{pageRoutes.map(route =>
@@ -12,9 +14,9 @@ const AppRouter = () => {
 					element={<route.element/>}
 					path={route.path}
 					key={route.path}
-					/>
+				/>
 			)}
-			<Route path="*" element={<Error/>}/>
+			<Route path="*" element={<Error />} />
 		</Routes>
 	)
 }
