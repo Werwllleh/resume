@@ -1,0 +1,54 @@
+.body {
+    padding: 40px 0;
+}
+
+.title {
+    font-size: 48px;
+    line-height: 1.5;
+}
+
+.section_about {
+    position: relative;
+}
+
+.about_text {
+    margin: 30px 0;
+    font-size: 22px;
+    text-align: justify;
+}
+
+.avatar {
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    top: -10px;
+}
+
+.avatar img {
+    max-width: 170px;
+    max-height: 170px;
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 500px) {
+    .avatar {
+        top: 40px;
+    }
+    .about_text {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 425px) {
+    .avatar img {
+        max-width: 130px;
+        max-height: 130px;
+    }
+}
+
+@media (max-width: 375px) {
+
+}

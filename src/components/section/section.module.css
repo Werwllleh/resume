@@ -1,0 +1,19 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 35px 0;
+}
+
+.title {
+    font-size: 36px;
+    line-height: 2;
+    border-bottom: 2px solid var(--color-purple);
+    margin: 0 0 22px 0;
+}
+
+@media (max-width: 425px) {
+    .title {
+        font-size: 28px;
+        margin: 0 0 18px 0;
+    }
+}

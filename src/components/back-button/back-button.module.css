@@ -1,0 +1,22 @@
+.button {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 15px;
+    left: 15px;
+    max-width: 80px;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 22px;
+    padding: 5px 10px;
+    background-color: var(--color-change-btn);
+    z-index: 999;
+    transition: background-color .3s, border .2s;
+    border: 2px solid transparent;
+    font-weight: 400;
+}
+
+.button:hover {
+    border: 2px solid var(--color-hover);
+}

@@ -1,0 +1,31 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+    row-gap: 5px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.row_field {
+    min-width: 135px;
+    font-weight: 700;
+}
+
+@media (max-width: 500px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 425px) {
+    .body {
+        gap: 7px;
+        font-size: 18px;
+    }
+}

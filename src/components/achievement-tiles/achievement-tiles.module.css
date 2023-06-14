@@ -1,0 +1,31 @@
+.body {
+    margin: 0 0 20px 0;
+}
+
+.category {
+    font-size: 24px;
+    margin: 0 0 7px 0;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.tile {
+    background-color: var(--color-change-btn);
+    font-size: 20px;
+    padding: 7px 10px;
+    border-radius: 7px;
+}
+
+@media (max-width: 425px) {
+    .category {
+        font-size: 20px;
+    }
+    .tile {
+        font-size: 18px;
+    }
+}
