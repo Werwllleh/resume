@@ -30,9 +30,9 @@ export const theme = {
 
 export const skills = {
     languages: ['JavaScript', 'TypeScript', 'CSS', 'HTML'],
-    libraries_frameworks: ['React', 'Redux', 'Next.js', 'Effector', 'Express'],
+    libraries_frameworks: ['React', 'Redux', 'Redux Toolkit', 'Next.js', 'Effector', 'Express'],
     tools: ['Git', 'Node.js', 'Webpack', 'BEM', 'Jest', 'Cypress'],
-    databases: ['Postgres']
+    databases: ['PostgreSQL']
 }
 
 export const works = [
@@ -67,7 +67,7 @@ export const educations = [
                 date_from: '22.02.2023',
                 date_until: '09.06.2023',
                 subtitle: 'Yandex Practicum',
-                text: 'Был пройден курс от Яндекс Практикум по программе React-разработчик и получено удостоверение о повышении квалификации. Изучены: основы библиотеки React, управление состоянием (Redux, Redux Toolkit), настроен роутинг (React-router-dom) и авторизация, TypeScript, WebSocket. В результате был создан проект Stellar Burgers',
+                text: 'Был пройден курс от Yandex Practicum по программе React-разработчик и получено удостоверение о повышении квалификации. Изучены: основы библиотеки React, управление состоянием (Redux, Redux Toolkit), настроен роутинг (React-router-dom) и авторизация, TypeScript, WebSocket. В результате был создан проект Stellar Burgers',
                 link: 'https://practicum.yandex.ru/'
             },
             {
@@ -82,43 +82,27 @@ export const educations = [
 ];
 export const projects = [
     {
-        link: {
-            url: 'https://bitroid.ru/',
-            text: 'Bitroid'
-        },
         description: [
             {
-                date_from: '26.01.2022',
-                date_until: '10.05.2023',
-                subtitle: 'Web-developer',
-                text: 'After second year at university I got the opportunity to work for Asseco. So at summer i went to Krakow, Poland. My internship lasted 2 months. It was really entertaining and useful experience for me. My task was to create an app, that prepares releases, so it mostly was related to infrastructure. I created basic web interface, where user could choose required options, and backend on Java, which was working with Git and called some bash commands. I interacted with my team in English, so there were no problems with communication.'
+                date_from: '22.02.2023',
+                date_until: '09.06.2023',
+                subtitle: 'Stellar Burgers',
+                text: 'Проектная работа программы React-разработчик от Yandex Practicum. Стэк: React, Redux Toolkit, TypeScript, WebSocket. Имеется возможность регистрации.',
+                link: 'https://werwllleh.github.io/react-burger/'
+
             },
             {
-                date_from: '26.01.2022',
-                date_until: '10.05.2023',
-                subtitle: 'Web-developer2',
-                text: 'blabla2'
+                date_from: '2022',
+                subtitle: 'VagBot',
+                text: 'Бот для автомобильного VAG сообщества Чебоксар с регистрацией. Стэк: NodeJs, Express, React, PostgreSQL, Ant Design',
+                link: 'https://telegram.me/VW21ClubBot'
+            },
+            {
+                date_from: '2022',
+                subtitle: 'Dhome (в разработке)',
+                text: 'Сайт-витрина о строительстве домов из СИП панелей. Сайт написан с использованием NextJs.',
+                link: 'https://dhome.vercel.app/'
             },
         ]
-    },
-    {
-        title: 'Test',
-        link: {
-            url: 'https://test.ru/',
-            text: 'Tessst'
-        },
-        description: [
-            {
-                date_from: '26.01.2022',
-                subtitle: 'Web-developer',
-                text: 'blabla'
-            },
-            {
-                date_from: '26.01.2022',
-                date_until: '10.05.2023',
-                subtitle: 'Web-developer2',
-                text: 'blabla2'
-            },
-        ]
-    },
+    }
 ];

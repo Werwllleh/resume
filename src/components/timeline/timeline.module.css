@@ -85,6 +85,7 @@
     font-size: 20px;
     font-weight: 300;
     padding: 0 30px 0 0;
+    width: 131px;
 }
 
 .timeline_date span{
@@ -124,7 +125,6 @@
 }
 
 .timeline_date_text {
-    /*text-align: justify;*/
     font-size: 20px;
     font-weight: 300;
 }
