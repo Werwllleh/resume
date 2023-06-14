@@ -136,13 +136,7 @@ ul, ul li {
 
 @media (max-width: 375px) {
   .container {
-    max-width: 300px;
-  }
-}
-
-@media (max-width: 330px) {
-  .container {
-    max-width: 300px;
+    max-width: 350px;
     padding: 0 5px;
   }
 }

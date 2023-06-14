@@ -35,7 +35,6 @@
 
 @media (max-width: 375px) {
     .body {
-        max-width: 300px;
         gap: 10px;
     }
     .link svg {
