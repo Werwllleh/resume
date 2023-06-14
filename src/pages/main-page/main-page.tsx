@@ -19,8 +19,8 @@ const MainPage = () => {
                     </Link>
                 </div>
                 <LinksBar/>
+                <Navbar/>
             </div>
-            <Navbar/>
         </>
     );
 };
