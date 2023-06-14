@@ -48,8 +48,8 @@
         max-width: 130px;
         max-height: 130px;
     }
+    .about_text {
+        font-size: 16px;
+    }
 }
 
-@media (max-width: 375px) {
-
-}
