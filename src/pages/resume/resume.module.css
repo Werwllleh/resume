@@ -12,9 +12,10 @@
 }
 
 .about_text {
-    margin: 30px 0;
+    margin: 50px 0 5px 0;
     font-size: 22px;
     text-align: justify;
+    font-weight: 300;
 }
 
 .avatar {

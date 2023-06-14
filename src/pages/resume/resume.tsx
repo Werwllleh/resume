@@ -16,10 +16,7 @@ const Resume = () => {
                 <div className={styles.section_about}>
                     <Table tableData={aboutMe}/>
                     <div className={styles.about_text}>
-                        Lorem ipsum odor amet, consectetuer adipiscing elit. Ac purus in massa egestas mollis varius;
-                        dignissim elementum. Mollis tincidunt mattis hendrerit dolor eros enim, nisi ligula ornare.
-                        Hendrerit parturient habitant pharetra rutrum gravida porttitor eros feugiat. Mollis elit
-                        sodales taciti duis praesent id. Consequat urna vitae morbi nunc congue.
+                        Нравится создавать и кодить, придумывать что-то сложное и изучать новое. Вдохновлен идеей, что технологии должны помогать людям в разных сферах их жизни.
                     </div>
                     <div className={styles.avatar}>
                         <Avatar/>
