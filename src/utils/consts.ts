@@ -46,8 +46,23 @@ export const works = [
             {
                 date_from: '26.01.2022',
                 date_until: '10.05.2023',
-                subtitle: 'Web-developer',
+                subtitle: 'Web developer',
                 text: `Первый опыт коммерческой разработки, применяя знания HTML, CSS, Javacript и PHP. В мои обязанности входили: верстка проектов под платформу 1С-Битрикс, верстка лендингов, интеграция шаблонов в CMS, создание инфоблоков, написание активити для облачной и коробочной версии 1С-Битрикс`
+            },
+        ]
+    },
+    {
+        title: 'Media Works',
+        link: {
+            url: 'https://mworks.ru/',
+            text: 'Media Works'
+        },
+        description: [
+            {
+                date_from: '11.09.2023',
+                date_until: '',
+                subtitle: 'Web developer',
+                text: `Верстка, создание и поддержка бот-чатов`
             },
         ]
     },
