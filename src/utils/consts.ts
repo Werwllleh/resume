@@ -29,9 +29,9 @@ export const theme = {
 }
 
 export const skills = {
-    languages: ['JavaScript', 'TypeScript', 'CSS', 'HTML'],
-    libraries_frameworks: ['React', 'Redux', 'Redux Toolkit', 'Next.js', 'Effector', 'Express'],
-    tools: ['Git', 'Node.js', 'Webpack', 'BEM', 'Jest', 'Cypress'],
+    languages: ['JavaScript', 'TypeScript', 'CSS', 'Sass/SCSS', 'HTML'],
+    libraries_frameworks: ['React', 'Redux', 'Redux Toolkit', 'Next.js', 'Effector', 'Express', 'Axios'],
+    tools: ['Git', 'Node.js', 'Webpack', 'BEM', 'GULP', 'Jest', 'Cypress'],
     databases: ['PostgreSQL']
 }
 
@@ -47,7 +47,7 @@ export const works = [
                 date_from: '26.01.2022',
                 date_until: '10.05.2023',
                 subtitle: 'Web developer',
-                text: `Первый опыт коммерческой разработки, применяя знания HTML, CSS, Javacript и PHP. В мои обязанности входили: верстка проектов под платформу 1С-Битрикс, верстка лендингов, интеграция шаблонов в CMS, создание инфоблоков, написание активити для облачной и коробочной версии 1С-Битрикс`
+                text: `Первый опыт коммерческой разработки, применяя знания HTML, CSS, Javascript и PHP. В мои обязанности входили: верстка проектов под платформу 1С-Битрикс, верстка лендингов, интеграция шаблонов в CMS, создание инфоблоков, написание активити для облачной и коробочной версии 1С-Битрикс`
             },
         ]
     },
@@ -62,7 +62,7 @@ export const works = [
                 date_from: '11.09.2023',
                 date_until: '',
                 subtitle: 'Web developer',
-                text: `Верстка, создание и поддержка бот-чатов`
+                text: `Верстка лендингов, интернет-магазинов, создание и поддержка бот-чатов`
             },
         ]
     },
@@ -75,7 +75,7 @@ export const educations = [
                 date_from: '01.09.2020',
                 date_until: '01.07.2024',
                 subtitle: 'Московский политехнический университет Чебоксарский институт (филиал)',
-                text: 'Получение высшего образования. Кафедра «Информационные технологии и системы управления». Направление - Информатика и вычислительная техника (профиль — «Программное обеспечение вычислительной техники и автоматизированных систем»)',
+                text: 'Получено высшее образование. Кафедра «Информационные технологии и системы управления». Направление - Информатика и вычислительная техника (профиль — «Программное обеспечение вычислительной техники и автоматизированных систем»)',
                 link: 'https://www.polytech21.ru/'
             },
             {
@@ -89,7 +89,7 @@ export const educations = [
                 date_from: '01.09.2015',
                 date_until: '01.07.2019',
                 subtitle: 'Чебоксарский электромеханический колледж',
-                text: 'Получение среднего профессионального образования. Специальность - «Организация и технология защиты информации». Квалификация - «Техник по защите информации».',
+                text: 'Получено среднее профессиональное образование. Специальность - «Организация и технология защиты информации». Квалификация - «Техник по защите информации».',
                 link: 'http://www.chemk.org/'
             },
         ]
@@ -102,14 +102,14 @@ export const projects = [
                 date_from: '22.02.2023',
                 date_until: '09.06.2023',
                 subtitle: 'Stellar Burgers',
-                text: 'Проектная работа программы React-разработчик от Yandex Practicum. Стэк: React, Redux Toolkit, TypeScript, WebSocket. Имеется возможность регистрации.',
+                text: 'Проектная работа программы React-разработчик от Yandex Practicum. Стэк: React, Redux Toolkit, TypeScript, WebSocket.',
                 link: 'https://werwllleh.github.io/react-burger/'
 
             },
             {
                 date_from: '2022',
                 subtitle: 'VagBot',
-                text: 'Бот для автомобильного VAG сообщества Чебоксар с регистрацией. Стэк: NodeJs, Express, React, PostgreSQL, Ant Design',
+                text: 'Бот для автомобильного VAG сообщества Чебоксар. Стэк: NodeJs, Express, React, PostgreSQL, Ant Design',
                 link: 'https://telegram.me/VW21ClubBot'
             },
             {
@@ -118,6 +118,25 @@ export const projects = [
                 text: 'Сайт-витрина о строительстве домов из СИП панелей. Сайт написан с использованием NextJs.',
                 link: 'https://dhome.vercel.app/'
             },
+            {
+                date_from: '2023',
+                subtitle: 'Technodekor',
+                text: 'Редизайн для сайта Technodekor',
+                link: 'https://werwllleh.github.io/technodekor/'
+            },
+            {
+                date_from: '2023',
+                subtitle: 'Innova Clinic',
+                text: 'Разработка сайта для Innova Clinic',
+                link: 'https://werwllleh.github.io/innova-clinic/'
+            },
+            {
+                date_from: '2023',
+                subtitle: 'Santey',
+                text: 'Landing page Santey',
+                link: 'https://werwllleh.github.io/santey/'
+            },
+
         ]
     }
 ];
