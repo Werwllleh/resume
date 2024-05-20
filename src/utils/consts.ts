@@ -29,8 +29,8 @@ export const theme = {
 }
 
 export const skills = {
-    languages: ['JavaScript', 'TypeScript', 'CSS', 'Sass/SCSS', 'HTML'],
-    libraries_frameworks: ['React', 'Redux', 'Redux Toolkit', 'Next.js', 'Effector', 'Express', 'Axios'],
+    languages: ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'Sass/SCSS'],
+    libraries_frameworks: ['React', 'Redux', 'Redux Toolkit', 'Zustand', 'Next.js', 'Effector', 'Express', 'Axios', 'Lodash', 'Sequelize'],
     tools: ['Git', 'Node.js', 'Webpack', 'BEM', 'GULP', 'Jest', 'Cypress'],
     databases: ['PostgreSQL']
 }
@@ -62,7 +62,7 @@ export const works = [
                 date_from: '11.09.2023',
                 date_until: '',
                 subtitle: 'Web developer',
-                text: `Верстка лендингов, интернет-магазинов, создание и поддержка бот-чатов`
+                text: `Верстка лендингов, интернет-магазинов, почтовых писем, создание и поддержка бот-чатов. Верстка на React и Vue. Создание PWA приложений.`
             },
         ]
     },
@@ -109,7 +109,7 @@ export const projects = [
             {
                 date_from: '2022',
                 subtitle: 'VagBot',
-                text: 'Бот для автомобильного VAG сообщества Чебоксар. Стэк: NodeJs, Express, React, PostgreSQL, Ant Design',
+                text: 'Телеграмм-Бот для автомобильного VAG сообщества Чебоксар. Стэк: NodeJs, Express, React, PostgreSQL, Ant Design',
                 link: 'https://telegram.me/VW21ClubBot'
             },
             {
