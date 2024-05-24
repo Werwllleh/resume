@@ -30,7 +30,7 @@ export const theme = {
 
 export const skills = {
     languages: ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'Sass/SCSS'],
-    libraries_frameworks: ['React', 'Redux', 'Redux Toolkit', 'Zustand', 'Next.js', 'Effector', 'Express', 'Axios', 'Lodash', 'Sequelize'],
+    libraries_frameworks: ['React', 'Redux', 'Redux Toolkit', 'TailwindCSS', 'Zustand', 'Next.js', 'Effector', 'Express', 'Axios', 'Lodash', 'Sequelize'],
     tools: ['Git', 'Node.js', 'Webpack', 'BEM', 'GULP', 'Jest', 'Cypress'],
     databases: ['PostgreSQL']
 }
