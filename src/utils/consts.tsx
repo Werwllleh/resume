@@ -99,6 +99,13 @@ export const projects = [
     {
         description: [
             {
+                date_from: '16.05.2024',
+                date_until: '',
+                subtitle: 'Master Sip',
+                text: 'Сайт по строительству СИП-панельных домов. Стэк: NextJs, Zustand. Стадия: в разработке',
+                link: 'https://master-sip.vercel.app/'
+            },
+            {
                 date_from: '22.02.2023',
                 date_until: '09.06.2023',
                 subtitle: 'Stellar Burgers',
@@ -109,14 +116,8 @@ export const projects = [
             {
                 date_from: '2022',
                 subtitle: 'VagBot',
-                text: 'Телеграмм-Бот для автомобильного VAG сообщества Чебоксар. Стэк: NodeJs, Express, React, PostgreSQL, Ant Design',
+                text: 'Телеграмм-Бот для автомобильного VAG сообщества Чебоксар. Стэк: NodeJs, Express, React, PostgreSQL, Ant Design. Стадия: релиз + доработки',
                 link: 'https://telegram.me/VW21ClubBot'
-            },
-            {
-                date_from: '2022',
-                subtitle: 'Dhome (в разработке)',
-                text: 'Сайт-витрина о строительстве домов из СИП панелей. Сайт написан с использованием NextJs.',
-                link: 'https://dhome.vercel.app/'
             },
             {
                 date_from: '2023',
